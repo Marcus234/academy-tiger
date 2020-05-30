@@ -1,0 +1,9 @@
+@import 'header.css';
+@import 'footer.css';
+
+main {
+    min-height: calc(100vh - 463px);
+}
+body {
+    margin: 0;
+}

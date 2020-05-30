@@ -1,0 +1,137 @@
+#footer {
+    height: 470px;
+    position: relative;
+    background-color: #B71C1C;
+    top: 700px;
+    border: none;
+}
+
+footer #logo-footer {
+    background: none;
+    height: 400px;
+    width: 160px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    top: -50px;
+}
+
+footer .social {
+    position: relative;
+    width: 50vw;
+    height: 70px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: -100px;
+}
+footer .social a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .social p {
+    left: -2px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 200px;
+}
+
+footer .social img {
+    height: 35px;
+    width: 100px;
+    position: relative;
+    top: 220px;
+    right: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    color: #fff;
+    top: 310px;
+    position: absolute;
+    left: 100px;
+}
+footer .menu-footer {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    #footer {
+        position: relative;
+        height: 360px;
+    }
+    footer #logo-footer {
+        background: none;
+        height: 400px;
+        width: 200px;
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+        top: -40px;
+    }
+    footer .social {
+        position: relative;
+        width: 50vw;
+        height: 70px;
+        left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        top: -100px;
+    }
+    footer .social a {
+        text-decoration: none;
+        color: #fff;
+    }
+    footer .social p {
+        display: none;
+    }
+    
+    footer .social img {
+        height: 60px;
+        width: 100px;
+        position: relative;
+        top: 250px;
+        right: -300px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    footer p {
+        color: #fff;
+        font-size: 25px;
+        top: 300px;
+        position: absolute;
+        left: 500px;
+    }
+    #footer .menu-footer {
+        display: flex;
+    }
+
+    #footer .menu-footer ul {
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        line-height: 35px;
+        margin: 30px;
+    }
+
+    #footer .menu-footer ul li {
+        list-style: none;
+        position: relative;
+        margin: 20px;
+        left: -50px;
+        top: -60px;
+    }
+
+    #footer .menu-footer ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFF;
+    }
+}
