@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="register">
         
         <div id="overlay" data-close="menu"></div>
 
@@ -35,12 +35,12 @@
 
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#">História</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><button class="btn"><a href="#" class="btn-register">Registre-se</a></button></li>
-                    <li><button class="btn-2"><a href="#" class="btn-login">Login</a></button></li>
+                    <li><a href="history.html">História</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li><a href="services.html">Serviços</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><button class="btn"><a href="register.html" class="btn-register">Registre-se</a></button></li>
+                    <li><button class="btn-2"><a href="login.html" class="btn-login">Login</a></button></li>
                 </ul>
                 
 
@@ -48,8 +48,46 @@
         
     </header>
 
+    <main id="register">
 
-    <footer id="footer">
+            <img src="assets/images/photos/register.jpg" alt="">
+            <form autocomplete="off">
+                <div>
+                    <div class="fields">
+                        <div class="field">
+                            <input type="text" name="name" id="name">
+                            <label for="name">Nome Completo</label>
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" id="email">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="fields">
+                        <div class="field">
+                            <input type="date" name="birth" id="birth">
+                            <label for="birth">Data de Nascimento</label>
+                        </div>
+                        <div class="field">
+                            <input type="password" name="password" id="password">
+                            <label for="password">Senha</label>
+                        </div>
+                        
+                    </div>
+                    <button type="submmit">Entrar</button>
+
+
+                </div>
+
+                <p>Se você já possui uma conta, <a href="login.html">clique aqui</a> para fazer o login.</p>
+
+            </form>
+
+    </main>
+
+
+    <footer id="footer-register">
 
         <div class="social">
             <a href="https://api.whatsapp.com/send?phone=5511985611367"><img src="assets/images/whatsapp.svg" alt="whatsapp"><p>WhatsApp</p></a>
@@ -64,10 +102,10 @@
         <div class="menu-footer">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">História</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="history.html">História</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="contact.html">Contato</a></li>
             </ul>
         </div>
 

@@ -1,0 +1,153 @@
+#register {
+    flex-direction: column;
+}
+
+#register img {
+    width: 100%;
+    position: relative;
+    top: -20px;
+}
+
+#register p {
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+#register a {
+    color: #840808;
+    text-decoration: none;
+}
+
+#register section form > div {
+    width: 100%;
+    flex-direction: column;
+}
+#register {
+    flex-direction: column;
+}
+
+form {
+    flex-direction: column;
+    width: 100%;
+}
+
+form .fields {
+    flex-direction: column;
+}
+
+form .field {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+form .field label {
+    color: #000;
+    font-size: 14px;
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 10px;
+    transition: color .3s ease-in-out;
+    text-align: center;
+}
+
+form .field input,
+form .field textarea {
+    width: 90%;
+    background-color: #dfe6e9;
+    line-height: 1.5em;
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    outline: none;
+    border: #000 2px solid;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    transition: border-color .3s ease-in-out;
+}
+
+form .field input:focus,
+form .field textarea:focus {
+    color: #840808;
+}
+
+form .field input:focus + label,
+form .field textarea:focus + label {
+    color: #840808;
+}
+
+form .actions {
+    flex-direction: column;
+    align-content: center;
+}
+
+form .actions a {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    color: #000;
+}
+
+form button {
+    width: 70%;
+    background-color: rgb(0, 14, 49);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    left: 50px;
+    position: relative;
+}
+
+form button:hover {
+    background-color: rgb(0, 14, 49);
+}
+
+form button:active {
+    background-color: rgb(0, 14, 49);
+}
+@media (min-width: 576px) {
+    #register label {
+        position: absolute;
+        left: 50px;
+    }
+    #register form button {
+        position: relative;
+        left: 100px;
+    }
+}
+@media (min-width: 992px) {
+    #register img {
+        height: 650px;
+    }
+    #register p {
+        position: relative;
+        text-align: right;
+        left: -150px;
+        top: -480px;
+        color: #fff;
+    }
+    form .fields {
+        width: 30%;
+        position: relative;
+        left: 800px;
+        top: -500px;
+    }
+    #register form button {
+        width: 20%;
+        position: relative;
+        top: -500px;
+        left: 870px;
+    }
+}

@@ -1,12 +1,18 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'home.css';
-@import 'home-history.css';
+@import 'history.css';
+@import 'gallery.css';
+@import 'register.css';
 @import 'footer-history.css';
+@import 'footer-gallery.css';
+@import 'footer-register.css';
 
 main {
     min-height: calc(100vh - 463px);
 }
 body {
     margin: 0;
+    padding: 0;
+    height: 100px;
 }
