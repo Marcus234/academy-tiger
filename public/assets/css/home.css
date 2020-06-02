@@ -1,0 +1,286 @@
+#home {
+    flex-direction: column;
+}
+
+#home header #banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    z-index: 3;
+    top: -13px;
+}
+
+#home .middle {
+    position: relative;
+    flex-direction: column;
+}
+
+#home .middle .text {
+    margin: 40px;
+    flex-direction: column;
+    color: rgb(0, 14, 49);
+}
+
+#home .middle .text hr {
+    background-color: rgb(0, 14, 49);
+    width: 72%;
+    position: relative;
+    top: -10px;
+}
+
+#home .middle .text p {
+    font-size: 25px;
+}
+
+#home .middle .btn-3 {
+    border: none;
+    background-color: rgb(0, 14, 49);
+    width: 100%;
+    height: 50px;
+}
+
+#home .middle .btn-history {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#home .services {
+    position: relative;
+    flex-direction: column;
+}
+
+#home .services img {
+    width: 100%;
+    height: 300px;
+}
+
+#home .services h3 {
+    margin: 40px;
+    font-size: 30px;
+    color: rgb(0, 14, 49);
+}
+
+#home .services hr {
+    background-color: rgb(0, 14, 49);
+    width: 72%;
+    position: relative;
+    top: -10px;
+}
+
+#home .services p {
+    position: relative;
+    top: -20px;
+    margin: 40px;
+    font-size: 25px;
+    color: rgb(0, 14, 49);
+}
+
+#home .services .btn-4 {
+    margin: 90px;
+    position: relative;
+    background-color: rgb(0, 14, 49);
+    width: 50%;
+    height: 40px;
+    border: none;
+    top: -120px;
+}
+
+#home .services .btn-services {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+@media (min-width: 576px) {
+    #home {
+        flex-direction: row;
+    }
+    
+    #home header #banner {
+        height: 600px;
+        top: -15px;
+    }
+    
+    #home .middle {
+        position: relative;
+        flex-direction: row;
+    }
+    
+    #home .middle .text {
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+        flex-direction: row;
+        color: rgb(0, 14, 49);
+    }
+    
+    #home .middle .text hr {
+        background-color: rgb(0, 14, 49);
+        width: 55%;
+        position: relative;
+        top: -10px;
+    }
+    
+    #home .middle .text p {
+        font-size: 40px;
+    }
+    
+    #home .middle .btn-3 {
+        border: none;
+        background-color: rgb(0, 14, 49);
+        width: 40%;
+        height: 50px;
+        margin-bottom: 100px;
+    }
+    
+    #home .middle .btn-history {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    #home .services {
+        position: relative;
+        flex-direction: column;
+    }
+    
+    #home .services img {
+        width: 100%;
+        height: 600px;
+    }
+    
+    #home .services h3 {
+        margin: 90px;
+        text-align: center;
+        font-size: 50px;
+        color: rgb(0, 14, 49);
+    }
+    
+    #home .services hr {
+        background-color: rgb(0, 14, 49);
+        width: 72%;
+        position: relative;
+        top: -10px;
+    }
+    
+    #home .services p {
+        text-align: center;
+        position: relative;
+        top: -20px;
+        margin: 40px;
+        font-size: 40px;
+        color: rgb(0, 14, 49);
+    }
+    
+    #home .services .btn-4 {
+        margin: 150px 300px;
+        position: relative;
+        background-color: rgb(0, 14, 49);
+        width: 20%;
+        height: 40px;
+        border: none;
+        top: -120px;
+    }
+    
+    #home .services .btn-services {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+    }
+}
+@media (min-width: 992px) {
+    #home {
+        flex-direction: row;
+    }
+    
+    #home header #banner {
+        height: 600px;
+    }
+    
+    #home .middle {
+        position: relative;
+        flex-direction: row;
+    }
+    
+    #home .middle .text {
+        margin-top: 100px;
+        font-size: 40px;
+        text-align: center;
+        flex-direction: row;
+        color: rgb(0, 14, 49);
+    }
+    
+    #home .middle .text hr {
+        background-color: rgb(0, 14, 49);
+        width: 15%;
+        position: relative;
+        top: -10px;
+    }
+    
+    #home .middle .text p {
+        font-size: 40px;
+    }
+    
+    #home .middle .btn-3 {
+        border: none;
+        background-color: rgb(0, 14, 49);
+        width: 25%;
+        height: 50px;
+        margin-bottom: 100px;
+    }
+    
+    #home .middle .btn-history {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    #home .services {
+        position: relative;
+        flex-direction: column;
+    }
+    
+    #home .services img {
+        width: 100%;
+        height: 600px;
+    }
+    
+    #home .services h3 {
+        margin: 90px;
+        text-align: center;
+        font-size: 70px;
+        color: rgb(0, 14, 49);
+    }
+    
+    #home .services hr {
+        background-color: rgb(0, 14, 49);
+        width: 72%;
+        position: relative;
+        top: -10px;
+    }
+    
+    #home .services p {
+        text-align: center;
+        position: relative;
+        top: -20px;
+        margin: 40px;
+        font-size: 50px;
+        color: rgb(0, 14, 49);
+    }
+    
+    #home .services .btn-4 {
+        margin: 100px 530px;
+        position: relative;
+        background-color: rgb(0, 14, 49);
+        width: 20%;
+        height: 40px;
+        border: none;
+        top: -120px;
+    }
+    
+    #home .services .btn-services {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+    }
+}

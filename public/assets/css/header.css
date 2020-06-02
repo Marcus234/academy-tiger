@@ -5,7 +5,8 @@
     position: relative;
     top: -10px;
 }
-#header #logo {
+#header,
+#header-history #logo {
     width: 100%;
     height: 200px;
     position: relative;
@@ -126,6 +127,11 @@
 .open-menu #header #logo {
     left: initial;
     right: 87px;
+}
+@media (min-width: 576px) {
+    #header {
+        height: 160px;
+    }
 }
 
 @media (min-width: 992px) {

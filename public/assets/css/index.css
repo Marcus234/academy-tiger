@@ -1,5 +1,8 @@
 @import 'header.css';
 @import 'footer.css';
+@import 'home.css';
+@import 'home-history.css';
+@import 'footer-history.css';
 
 main {
     min-height: calc(100vh - 463px);
