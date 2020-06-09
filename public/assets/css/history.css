@@ -2,7 +2,7 @@
     flex-direction: column;
 }
 
-#history header h1 {
+#history h1 {
     position: relative;
     top: 20px;
     text-align: center;
@@ -10,12 +10,12 @@
     color: rgb(0, 14, 49);
 }
 
-#history header hr {
+#history hr {
     width: 70%;
     color: rgb(0, 14, 49);
 }
 
-#history header .description{
+#history .description{
     position: relative;
     top: 20px;
     text-align: center;
@@ -77,7 +77,7 @@
         flex-direction: row;
     }
     
-    #history header h1 {
+    #history h1 {
         position: relative;
         top: 20px;
         text-align: right;
@@ -86,14 +86,14 @@
         right: 220px;
     }
     
-    #history header hr {
+    #history hr {
         width: 10%;
         color: rgb(0, 14, 49);
         position: relative;
         left: 330px;
     }
     
-    #history header .description{
+    #history .description{
         width: 40%;
         flex-direction: column;
         justify-content: center;

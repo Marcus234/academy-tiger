@@ -1,36 +1,34 @@
-#register {
+#contact {
     flex-direction: column;
 }
-
-#register img {
+#contact img {
     width: 100%;
     position: relative;
-    top: -20px;
+    top: -15px;
 }
-
-#register p {
+#contact p {
     font-weight: 600;
     color: #000;
     text-align: center;
 }
-#register a {
+#contact a {
     color: #840808;
     text-decoration: none;
 }
-#register {
+#contact {
     flex-direction: column;
 }
 
-form {
+#contact form {
     flex-direction: column;
     width: 100%;
 }
 
-form .fields {
+#contact form .fields {
     flex-direction: column;
 }
 
-form .field {
+#contact form .field {
     position: relative;
     flex-direction: column;
     width: 100%;
@@ -38,7 +36,8 @@ form .field {
     text-align: center;
 }
 
-form .field label {
+#contact form .field label,
+#contact form .text label {
     color: #000;
     font-size: 14px;
     position: absolute;
@@ -48,11 +47,31 @@ form .field label {
     transition: color .3s ease-in-out;
     text-align: center;
 }
-
-form .field input {
+#contact form .text textarea {
+    height: 200px;
+    position: relative;
+    left: 10px;
     width: 90%;
     background-color: #dfe6e9;
-    line-height: 1.5em;
+    line-height: 1em;
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+}
+
+#contact form .field input {
+    width: 90%;
+    background-color: #dfe6e9;
+    line-height: 1em;
     padding: 10px;
     padding-top: 30px;
     font-size: 13px;
@@ -67,27 +86,29 @@ form .field input {
     top: 0;
 }
 
-form .field input:focus {
+#contact form .field input:focus,
+#contact form .text textarea:focus {
     color: rgb(0, 14, 49);
 }
 
-form .field input:focus + label {
+#contact form .field input:focus + label,
+#contact form .text textarea:focus {
     color: #840808;
 }
 
-form .actions {
+#contact form .actions {
     flex-direction: column;
     align-content: center;
 }
 
-form .actions a {
+#contact form .actions a {
     display: block;
     text-align: center;
     padding: 1em;
     color: #000;
 }
 
-form button {
+#contact form button {
     width: 70%;
     background-color: rgb(0, 14, 49);
     color: #fff;
@@ -99,58 +120,57 @@ form button {
     outline: none;
     left: 50px;
     position: relative;
+    top: 20px;
 }
 
-form button:hover {
+#contact form button:hover {
     background-color: rgb(0, 14, 49);
 }
 
-form button:active {
+#contact form button:active {
     background-color: rgb(0, 14, 49);
 }
 @media (min-width: 576px) {
-    #register label {
+    #contact label {
         position: absolute;
-        left: 50px;
+        left: 40px;
     }
-    #register form button {
+    #contact form .text textarea {
+        position: relative;
+        left: 30px;
+    }
+    #contact form button {
         position: relative;
         left: 100px;
-        top: 20px;
-    }
-    #register p {
-        position: relative;
-        top: 50px;
-        font-size: 20px;
     }
 }
 @media (min-width: 992px) {
-    #register img {
-        height: 680px;
-        top: -125px;
-        margin-bottom: -40px;
+    #contact img {
+        height: 700px;
+        margin-bottom: -69px;
     }
-    #register p {
-        position: relative;
-        text-align: right;
-        left: -150px;
-        top: -430px;
-        color: #fff;
-    }
-    #register label {
+    #contact label {
         position: absolute;
         left: 20px;
     }
-    form .fields {
+    #contact form .fields {
         width: 30%;
         position: relative;
-        left: 800px;
+        left: 450px;
         top: -500px;
+        opacity: 70%;
     }
-    #register form button {
+    #contact form .text textarea {
+        position: relative;
+        width: 27%;
+        top: -500px;
+        left: 460px;
+        opacity: 70%;
+    }
+    #contact form button {
         width: 20%;
         position: relative;
         top: -480px;
-        left: 870px;
+        left: 520px;
     }
 }

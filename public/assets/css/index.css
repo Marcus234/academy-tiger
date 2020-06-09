@@ -4,9 +4,13 @@
 @import 'history.css';
 @import 'gallery.css';
 @import 'register.css';
+@import 'login.css';
+@import 'contact.css';
 @import 'footer-history.css';
 @import 'footer-gallery.css';
 @import 'footer-register.css';
+@import 'footer-login.css';
+@import 'footer-contact.css';
 
 main {
     min-height: calc(100vh - 463px);

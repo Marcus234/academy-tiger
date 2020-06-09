@@ -1,5 +1,5 @@
-#footer-register {
-    height: 400px;
+#footer-login {
+    height: 410px;
     position: relative;
     background-color: #840808;
     top: 10px;
@@ -7,7 +7,7 @@
     padding: 2em;
 }
 
-#footer-register #logo-footer {
+#footer-login #logo-footer {
     background: none;
     height: 400px;
     width: 160px;
@@ -17,22 +17,22 @@
     top: -50px;
 }
 
-#footer-register .social {
+#footer-login .social {
     position: relative;
     width: 50vw;
     height: 70px;
-    left: 0;
+    left: -3px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     top: -100px;
 }
-#footer-register .social a {
+#footer-login .social a {
     text-decoration: none;
     color: #fff;
 }
-#footer-register .social p {
+#footer-login .social p {
     left: -2px;
     position: relative;
     padding: 0;
@@ -40,7 +40,7 @@
     top: 180px;
 }
 
-#footer-register .social img {
+#footer-login .social img {
     height: 35px;
     width: 100px;
     position: relative;
@@ -50,23 +50,23 @@
     padding: 0;
 }
 
-#footer-register p {
+#footer-login p {
     color: #fff;
-    top: 310px;
+    top: 320px;
     position: absolute;
     left: 100px;
 }
-#footer-register .menu-footer {
+#footer-login .menu-footer {
     display: none;
 }
 
 @media (min-width: 576px) {
-    #footer-register {
+    #footer-login {
         position: relative;
         height: 690px;
         top: 100px;
     }
-    #footer-register #logo-footer {
+    #footer-login #logo-footer {
         background: none;
         height: 400px;
         width: 200px;
@@ -75,7 +75,7 @@
         bottom: 30px;
         top: 10px;
     }
-    #footer-register .social {
+    #footer-login .social {
         position: relative;
         width: 50vw;
         height: 70px;
@@ -86,15 +86,15 @@
         align-items: center;
         top: -100px;
     }
-    #footer-register .social a {
+    #footer-login .social a {
         text-decoration: none;
         color: #fff;
     }
-    #footer-register .social p {
+    #footer-login .social p {
         display: none;
     }
     
-    #footer-register .social img {
+    #footer-login .social img {
         height: 60px;
         width: 50px;
         position: relative;
@@ -104,18 +104,18 @@
         padding: 0;
     }
     
-    #footer-register p {
+    #footer-login p {
         color: #fff;
         font-size: 25px;
         top: 290px;
         position: absolute;
         left: 270px;
     }
-    #footer-register .menu-footer {
+    #footer-login .menu-footer {
         display: flex;
     }
 
-    #footer-register .menu-footer ul {
+    #footer-login .menu-footer ul {
         flex-direction: column;
         width: 200px;
         height: 200px;
@@ -123,7 +123,7 @@
         margin: 30px;
     }
 
-    #footer-register .menu-footer ul li {
+    #footer-login .menu-footer ul li {
         list-style: none;
         position: relative;
         margin: 20px;
@@ -131,7 +131,7 @@
         top: -60px;
     }
 
-    #footer-register .menu-footer ul li a {
+    #footer-login .menu-footer ul li a {
         text-decoration: none;
         font-size: 25px;
         color: #FFF;
@@ -139,12 +139,12 @@
 }
 
 @media (min-width: 992px) {
-    #footer-register {
+    #footer-login {
         position: relative;
         height: 350px;
-        top: -418px;
+        top: -355px;
     }
-    #footer-register #logo-footer {
+    #footer-login #logo-footer {
         background: none;
         height: 400px;
         width: 200px;
@@ -153,7 +153,7 @@
         bottom: 30px;
         top: 10px;
     }
-    #footer-register .social {
+    #footer-login .social {
         position: relative;
         width: 50vw;
         height: 70px;
@@ -164,15 +164,15 @@
         align-items: center;
         top: -100px;
     }
-    #footer-register .social a {
+    #footer-login .social a {
         text-decoration: none;
         color: #fff;
     }
-    #footer-register .social p {
+    #footer-login .social p {
         display: none;
     }
     
-    #footer-register .social img {
+    #footer-login .social img {
         height: 60px;
         width: 100px;
         position: relative;
@@ -182,18 +182,18 @@
         padding: 0;
     }
     
-    #footer-register p {
+    #footer-login p {
         color: #fff;
         font-size: 25px;
         top: 320px;
         position: absolute;
         left: 500px;
     }
-    #footer-register .menu-footer {
+    #footer-login .menu-footer {
         display: flex;
     }
 
-    #footer-register .menu-footer ul {
+    #footer-login .menu-footer ul {
         flex-direction: column;
         width: 200px;
         height: 200px;
@@ -201,15 +201,15 @@
         margin: 30px;
     }
 
-    #footer-register .menu-footer ul li {
+    #footer-login .menu-footer ul li {
         list-style: none;
         position: relative;
         margin: 20px;
         left: -70px;
-        top: -60px;
+        top: -80px;
     }
 
-    #footer-register .menu-footer ul li a {
+    #footer-login .menu-footer ul li a {
         text-decoration: none;
         font-size: 25px;
         color: #FFF;

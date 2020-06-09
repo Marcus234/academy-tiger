@@ -1,13 +1,12 @@
-#footer-register {
-    height: 400px;
+#footer-contact {
+    height: 470px;
     position: relative;
     background-color: #840808;
-    top: 10px;
+    top: 70px;
     border: none;
-    padding: 2em;
 }
 
-#footer-register #logo-footer {
+#footer-contact #logo-footer {
     background: none;
     height: 400px;
     width: 160px;
@@ -17,65 +16,65 @@
     top: -50px;
 }
 
-#footer-register .social {
+#footer-contact .social {
     position: relative;
     width: 50vw;
     height: 70px;
-    left: 0;
+    left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     top: -100px;
 }
-#footer-register .social a {
+#footer-contact .social a {
     text-decoration: none;
     color: #fff;
 }
-#footer-register .social p {
+#footer-contact .social p {
     left: -2px;
     position: relative;
     padding: 0;
     margin: 0;
-    top: 180px;
+    top: 220px;
 }
 
-#footer-register .social img {
+#footer-contact .social img {
     height: 35px;
     width: 100px;
     position: relative;
-    top: 200px;
+    top: 240px;
     right: 90px;
     margin: 0;
     padding: 0;
 }
 
-#footer-register p {
+#footer-contact p {
     color: #fff;
     top: 310px;
     position: absolute;
     left: 100px;
 }
-#footer-register .menu-footer {
+#footer-contact .menu-footer {
     display: none;
 }
 
 @media (min-width: 576px) {
-    #footer-register {
+    #footer-contact {
         position: relative;
         height: 690px;
         top: 100px;
     }
-    #footer-register #logo-footer {
+    #footer-contact #logo-footer {
         background: none;
         height: 400px;
         width: 200px;
         position: absolute;
-        right: 0;
+        right: 20px;
         bottom: 30px;
-        top: 10px;
+        top: -40px;
     }
-    #footer-register .social {
+    #footer-contact .social {
         position: relative;
         width: 50vw;
         height: 70px;
@@ -86,15 +85,15 @@
         align-items: center;
         top: -100px;
     }
-    #footer-register .social a {
+    #footer-contact .social a {
         text-decoration: none;
         color: #fff;
     }
-    #footer-register .social p {
+    #footer-contact .social p {
         display: none;
     }
     
-    #footer-register .social img {
+    #footer-contact .social img {
         height: 60px;
         width: 50px;
         position: relative;
@@ -104,18 +103,18 @@
         padding: 0;
     }
     
-    #footer-register p {
+    #footer-contact p {
         color: #fff;
         font-size: 25px;
         top: 290px;
         position: absolute;
         left: 270px;
     }
-    #footer-register .menu-footer {
+    #footer-contact .menu-footer {
         display: flex;
     }
 
-    #footer-register .menu-footer ul {
+    #footer-contact .menu-footer ul {
         flex-direction: column;
         width: 200px;
         height: 200px;
@@ -123,7 +122,7 @@
         margin: 30px;
     }
 
-    #footer-register .menu-footer ul li {
+    #footer-contact .menu-footer ul li {
         list-style: none;
         position: relative;
         margin: 20px;
@@ -131,7 +130,7 @@
         top: -60px;
     }
 
-    #footer-register .menu-footer ul li a {
+    #footer-contact .menu-footer ul li a {
         text-decoration: none;
         font-size: 25px;
         color: #FFF;
@@ -139,21 +138,21 @@
 }
 
 @media (min-width: 992px) {
-    #footer-register {
+    #footer-contact {
         position: relative;
-        height: 350px;
-        top: -418px;
+        height: 390px;
+        top: -390px;
     }
-    #footer-register #logo-footer {
+    #footer-contact #logo-footer {
         background: none;
         height: 400px;
         width: 200px;
         position: absolute;
         right: 20px;
         bottom: 30px;
-        top: 10px;
+        top: -40px;
     }
-    #footer-register .social {
+    #footer-contact .social {
         position: relative;
         width: 50vw;
         height: 70px;
@@ -164,15 +163,15 @@
         align-items: center;
         top: -100px;
     }
-    #footer-register .social a {
+    #footer-contact .social a {
         text-decoration: none;
         color: #fff;
     }
-    #footer-register .social p {
+    #footer-contact .social p {
         display: none;
     }
     
-    #footer-register .social img {
+    #footer-contact .social img {
         height: 60px;
         width: 100px;
         position: relative;
@@ -182,18 +181,18 @@
         padding: 0;
     }
     
-    #footer-register p {
+    #footer-contact p {
         color: #fff;
         font-size: 25px;
-        top: 320px;
+        top: 300px;
         position: absolute;
         left: 500px;
     }
-    #footer-register .menu-footer {
+    #footer-contact .menu-footer {
         display: flex;
     }
 
-    #footer-register .menu-footer ul {
+    #footer-contact .menu-footer ul {
         flex-direction: column;
         width: 200px;
         height: 200px;
@@ -201,15 +200,15 @@
         margin: 30px;
     }
 
-    #footer-register .menu-footer ul li {
+    #footer-contact .menu-footer ul li {
         list-style: none;
         position: relative;
         margin: 20px;
-        left: -70px;
+        left: -50px;
         top: -60px;
     }
 
-    #footer-register .menu-footer ul li a {
+    #footer-contact .menu-footer ul li a {
         text-decoration: none;
         font-size: 25px;
         color: #FFF;

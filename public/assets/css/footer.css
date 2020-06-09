@@ -1,5 +1,5 @@
 #footer {
-    height: 370px;
+    height: 470px;
     position: relative;
     background-color: #840808;
     top: -100px;
@@ -36,14 +36,14 @@ footer .social p {
     position: relative;
     padding: 0;
     margin: 0;
-    top: 200px;
+    top: 220px;
 }
 
 footer .social img {
     height: 35px;
     width: 100px;
     position: relative;
-    top: 220px;
+    top: 240px;
     right: 90px;
     margin: 0;
     padding: 0;
