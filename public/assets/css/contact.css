@@ -131,7 +131,7 @@
     background-color: rgb(0, 14, 49);
 }
 @media (min-width: 576px) {
-    #contact label {
+    #contact form .fields label {
         position: absolute;
         left: 40px;
     }
@@ -149,7 +149,7 @@
         height: 700px;
         margin-bottom: -69px;
     }
-    #contact label {
+    #contact form .fields label {
         position: absolute;
         left: 20px;
     }

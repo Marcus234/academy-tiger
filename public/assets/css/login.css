@@ -126,16 +126,16 @@ form button:active {
 }
 @media (min-width: 992px) {
     #login img {
-        height: 680px;
+        height: 780px;
         top: -125px;
         margin-bottom: -40px;
     }
     #login p {
         position: relative;
         text-align: right;
-        left: -150px;
-        top: -405px;
-        color: #000;
+        left: -90px;
+        top: -490px;
+        color: #fff;
     }
     #login label {
         position: absolute;
@@ -145,12 +145,12 @@ form button:active {
         width: 30%;
         position: relative;
         left: 800px;
-        top: -500px;
+        top: -550px;
     }
     #login form button {
         width: 20%;
         position: relative;
-        top: -480px;
+        top: -550px;
         left: 870px;
     }
 }

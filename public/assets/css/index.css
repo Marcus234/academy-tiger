@@ -6,11 +6,13 @@
 @import 'register.css';
 @import 'login.css';
 @import 'contact.css';
+@import 'error.css';
 @import 'footer-history.css';
 @import 'footer-gallery.css';
 @import 'footer-register.css';
 @import 'footer-login.css';
 @import 'footer-contact.css';
+@import 'footer-404.css';
 
 main {
     min-height: calc(100vh - 463px);
