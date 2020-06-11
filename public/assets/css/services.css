@@ -16,27 +16,63 @@
 #services .teacher img {
     width: 100%;
 }
-#services h1,
-#services p {
+#services .mobile h1{
     text-align: center;
+    margin-top: 70px;
+}
+#services .mobile a {
+    text-decoration: none;
+    color: rgb(0, 14, 49);
 }
 #services h1 {
     color: rgb(0, 14, 49);
+    text-align: center;
+}
+#services hr {
+    width: 40%;
+    position: relative;
+    top: -20px;
 }
 #services p {
     color: rgb(0, 14, 49);
     margin-bottom: 100px;
 }
-#services hr {
+#services .mobile hr {
     position: relative;
     top: -20px;
     width: 50%;
     color: rgb(0, 14, 49);
 }
+#services .mobile h2,
+#services .mobile ul {
+    color: rgb(0, 14, 49);
+    font-size: 30px;
+}
 
-.slidershow {
+.slidershow,
+.slidershow2,
+.slidershow3,
+.slidershow4,
+.slidershow5 {
     display: none;
 }
+
+@media (min-width: 576px) {
+    #services hr {
+        width: 15%;
+    }
+    #services .mobile hr {
+        width: 30%;
+    }
+    #services .mobile ul {
+        font-size: 40px;
+        text-align: center;
+        list-style: none;
+    }
+    #services .mobile h2 {
+        font-size: 50px;
+        text-align: center;
+    }
 
 @media (min-width: 992px) {
     .men,
@@ -46,9 +82,121 @@
     .teacher {
         display: none;
     }
+    .slidershow,
+    .slidershow2,
+    .slidershow3,
+    .slidershow4,
+    .slidershow5 {
+        display: flex;
+    }
+    #services {
+        border: 2px #000;
+    }
+    .slide ul li,
+    .slide h2{
+        position: relative;
+        color: #ff0000;
+        font-weight: bold;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+        -webkit-text-stroke-color: #000;
+    }
+    .slide ul li {
+        font-size: 40px;
+        top: -360px;
+    }
+    .slide h2 {
+        top: -350px;
+        left: 20px;
+        font-size: 30px;
+    }
+    .slide2 a,
+    .slide2 ul li,
+    .slide2 h2 {
+        position: relative;
+        color: #ff0000;
+        font-weight: bold;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+        -webkit-text-stroke-color: #000;
+    }
+    .slide2 a {
+        text-decoration: none;
+    }
+    .slide2 ul li {
+        font-size: 40px;
+        top: -450px;
+    }
+    .slide2 h2 {
+        top: -450px;
+        left: 20px;
+        font-size: 30px;
+    }
+    .slide3 a,
+    .slide3 ul li,
+    .slide3 h2 {
+        position: relative;
+        color: #ff0000;
+        font-weight: bold;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+        -webkit-text-stroke-color: #000;
+    }
+    .slide3 a {
+        text-decoration: none;
+    }
+    .slide3 ul li {
+        font-size: 40px;
+        top: -450px;
+    }
+    .slide3 h2 {
+        top: -450px;
+        left: 20px;
+        font-size: 30px;
+    }
+    .slide4 a,
+    .slide4 ul li,
+    .slide4 h2 {
+        position: relative;
+        color: #ff0000;
+        font-weight: bold;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+        -webkit-text-stroke-color: #000;
+    }
+    .slide4 a {
+        text-decoration: none;
+    }
+    .slide4 ul li {
+        font-size: 40px;
+        top: -450px;
+    }
+    .slide4 h2 {
+        top: -450px;
+        left: 20px;
+        font-size: 30px;
+    }
+    .slide5 a,
+    .slide5 ul li,
+    .slide5 h2 {
+        position: relative;
+        color: #ff0000;
+        font-weight: bold;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+        -webkit-text-stroke-color: #000;
+    }
+    .slide5 a {
+        text-decoration: none;
+    }
+    .slide5 ul li {
+        font-size: 40px;
+        top: -450px;
+    }
+    .slide5 h2 {
+        top: -450px;
+        left: 20px;
+        font-size: 30px;
+    }
+
     .slidershow {
         width: 70%;
-        height: 500px;
+        height: 600px;
         overflow: hidden;
         flex-direction: column;
         display: flex;
@@ -67,7 +215,7 @@
         left: 50%;
         transform: translateX(-50%);
         display: flex;
-        top: 470px;
+        top: 550px;
     }
     
     .bar {
@@ -80,14 +228,14 @@
     
     .slidershow2 {
         width: 70%;
-        height: 500px;
+        height: 600px;
         overflow: hidden;
         flex-direction: column;
     }
     
     .middle2 {
         position: absolute;
-        top: 320%;
+        top: 290%;
         left: 120%;
         transform: translate(-150%,-150%);
         
@@ -99,7 +247,7 @@
         left: 50%;
         transform: translateX(-50%);
         display: flex;
-        top: 470px;
+        top: 550px;
     }
     
     .bar2 {
@@ -112,14 +260,14 @@
     
     .slidershow3 {
         width: 70%;
-        height: 500px;
+        height: 600px;
         overflow: hidden;
         flex-direction: column;
     }
     
     .middle3 {
         position: absolute;
-        top: 550%;
+        top: 490%;
         left: 190%;
         transform: translate(-250%,-250%);
         margin-bottom: 10px;
@@ -131,7 +279,7 @@
         left: 50%;
         transform: translateX(-50%);
         display: flex;
-        top: 470px;
+        top: 550px;
     }
     
     .bar3 {
@@ -143,14 +291,14 @@
     }
     .slidershow4 {
         width: 70%;
-        height: 500px;
+        height: 600px;
         overflow: hidden;
         flex-direction: column;
     }
     
     .middle4 {
         position: absolute;
-        top: 690%;
+        top: 590%;
         left: 190%;
         transform: translate(-250%,-250%);
         margin-bottom: 10px;
@@ -162,7 +310,7 @@
         left: 50%;
         transform: translateX(-50%);
         display: flex;
-        top: 470px;
+        top: 550px;
     }
     
     .bar4 {
@@ -174,14 +322,14 @@
     }
     .slidershow5 {
         width: 70%;
-        height: 500px;
+        height: 600px;
         overflow: hidden;
         flex-direction: column;
     }
     
     .middle5 {
         position: absolute;
-        top: 850%;
+        top: 690%;
         left: 190%;
         transform: translate(-250%,-250%);
         margin-bottom: 10px;
@@ -193,7 +341,7 @@
         left: 50%;
         transform: translateX(-50%);
         display: flex;
-        top: 470px;
+        top: 550px;
     }
     
     .bar5 {
@@ -347,15 +495,14 @@
     #r11:checked ~ .s4 {
         margin-left: -20%;
     }
-
-    #r12:checked ~ .s5 {
-        margin-left: 0;
-    }
-    #r13:checked ~ .s5 {
-        margin-left: -20%;
-    }
-    #r14:checked ~ .s5 {
+    #r12:checked ~ .s4 {
         margin-left: -40%;
     }
-    
+
+    #r13:checked ~ .s5 {
+        margin-left: -0%;
+    }
+    #r14:checked ~ .s5 {
+        margin-left: -20%;
+    }
 }

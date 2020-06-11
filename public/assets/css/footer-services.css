@@ -2,7 +2,7 @@
     height: 470px;
     position: relative;
     background-color: #840808;
-    top: 200px;
+    top: 100px;
     border: none;
 }
 
@@ -63,7 +63,7 @@
     #footer-services {
         position: relative;
         height: 690px;
-        top: -170px;
+        top: 170px;
     }
     #footer-services #logo-footer {
         background: none;
@@ -141,7 +141,7 @@
     #footer-services {
         position: relative;
         height: 390px;
-        top: 4000px;
+        top: 3200px;
     }
     #footer-services #logo-footer {
         background: none;

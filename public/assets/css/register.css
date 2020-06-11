@@ -108,6 +108,9 @@ form button:hover {
 form button:active {
     background-color: rgb(0, 14, 49);
 }
+#register form button a {
+    color: #fff;
+}
 @media (min-width: 576px) {
     #register label {
         position: absolute;

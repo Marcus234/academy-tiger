@@ -200,6 +200,7 @@
     #home .middle {
         position: relative;
         flex-direction: row;
+        top: 800px;
     }
     
     #home .middle .text {
