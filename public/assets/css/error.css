@@ -32,7 +32,7 @@
         flex-direction: row;
     }
     #error img {
-        height: 700px;
+        height: auto;
     }
     #error .text-error h1 {
         top: -450px;

@@ -1,0 +1,216 @@
+#footer-services {
+    height: 470px;
+    position: relative;
+    background-color: #840808;
+    top: 200px;
+    border: none;
+}
+
+#footer-services #logo-footer {
+    background: none;
+    height: 400px;
+    width: 160px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    top: -50px;
+}
+
+#footer-services .social {
+    position: relative;
+    width: 50vw;
+    height: 70px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: -100px;
+}
+#footer-services .social a {
+    text-decoration: none;
+    color: #fff;
+}
+#footer-services .social p {
+    left: -2px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 220px;
+}
+
+#footer-services .social img {
+    height: 35px;
+    width: 100px;
+    position: relative;
+    top: 240px;
+    right: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-services p {
+    color: #fff;
+    top: 310px;
+    position: absolute;
+    left: 100px;
+}
+#footer-services .menu-footer {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    #footer-services {
+        position: relative;
+        height: 690px;
+        top: -170px;
+    }
+    #footer-services #logo-footer {
+        background: none;
+        height: 400px;
+        width: 200px;
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+        top: -40px;
+    }
+    #footer-services .social {
+        position: relative;
+        width: 50vw;
+        height: 70px;
+        left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        top: -100px;
+    }
+    #footer-services .social a {
+        text-decoration: none;
+        color: #fff;
+    }
+    #footer-services .social p {
+        display: none;
+    }
+    
+    #footer-services .social img {
+        height: 60px;
+        width: 50px;
+        position: relative;
+        top: 250px;
+        right: -130px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #footer-services p {
+        color: #fff;
+        font-size: 25px;
+        top: 290px;
+        position: absolute;
+        left: 270px;
+    }
+    #footer-services .menu-footer {
+        display: flex;
+    }
+
+    #footer-services .menu-footer ul {
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        line-height: 35px;
+        margin: 30px;
+    }
+
+    #footer-services .menu-footer ul li {
+        list-style: none;
+        position: relative;
+        margin: 20px;
+        left: -70px;
+        top: -60px;
+    }
+
+    #footer-services .menu-footer ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFF;
+    }
+}
+
+@media (min-width: 992px) {
+    #footer-services {
+        position: relative;
+        height: 390px;
+        top: 4000px;
+    }
+    #footer-services #logo-footer {
+        background: none;
+        height: 400px;
+        width: 200px;
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+        top: -40px;
+    }
+    #footer-services .social {
+        position: relative;
+        width: 50vw;
+        height: 70px;
+        left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        top: -100px;
+    }
+    #footer-services .social a {
+        text-decoration: none;
+        color: #fff;
+    }
+    #footer-services .social p {
+        display: none;
+    }
+    
+    #footer-services .social img {
+        height: 60px;
+        width: 100px;
+        position: relative;
+        top: 250px;
+        right: -300px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #footer-services p {
+        color: #fff;
+        font-size: 25px;
+        top: 300px;
+        position: absolute;
+        left: 500px;
+    }
+    #footer-services .menu-footer {
+        display: flex;
+    }
+
+    #footer-services .menu-footer ul {
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        line-height: 35px;
+        margin: 30px;
+    }
+
+    #footer-services .menu-footer ul li {
+        list-style: none;
+        position: relative;
+        margin: 20px;
+        left: -50px;
+        top: -60px;
+    }
+
+    #footer-services .menu-footer ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFF;
+    }
+}

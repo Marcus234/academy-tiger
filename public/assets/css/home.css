@@ -194,7 +194,7 @@
     }
     
     #home header #banner {
-        height: 900px;
+        height: auto;
     }
     
     #home .middle {
