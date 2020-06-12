@@ -6,6 +6,7 @@
     height: 430px;
     position: relative;
     top: -10px;
+    margin-bottom: -100px;
 }
 
 #error .text-error h1 {

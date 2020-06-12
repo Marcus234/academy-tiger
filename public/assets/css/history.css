@@ -108,7 +108,7 @@
         justify-content: center;
         position: relative;
         top: 20px;
-        font-size: 22px;
+        font-size: 17px;
         color: rgb(0, 14, 49);
         text-align: center;
         right: -700px;
@@ -122,5 +122,6 @@
         position: relative;
         flex-direction: row;
         left: -375px;
+        margin-bottom: -200px;
     }
 }

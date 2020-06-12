@@ -28,6 +28,11 @@
     color: rgb(0, 14, 49);
     text-align: center;
 }
+#services .mobile h3 {
+    color: #840808;
+    text-align: left;
+    font-size: 30px;
+}
 #services hr {
     width: 40%;
     position: relative;
@@ -92,6 +97,12 @@
     #services {
         border: 2px #000;
     }
+    .slide2 hr,
+    .slide3 hr,
+    .slide4 hr,
+    .slide5 hr {
+        width: 10%;
+    }
     .slide ul li,
     .slide h2{
         position: relative;
@@ -109,6 +120,7 @@
         left: 20px;
         font-size: 30px;
     }
+    .slide2 h3,
     .slide2 a,
     .slide2 ul li,
     .slide2 h2 {
@@ -117,6 +129,12 @@
         font-weight: bold;
         -webkit-text-stroke-width: 1px; /* largura da borda */
         -webkit-text-stroke-color: #000;
+    }
+    .slide2 h3 {
+        position: relative;
+        top: -630px;
+        font-size: 30px;
+        left: 10px;
     }
     .slide2 a {
         text-decoration: none;
@@ -130,6 +148,7 @@
         left: 20px;
         font-size: 30px;
     }
+    .slide3 h3,
     .slide3 a,
     .slide3 ul li,
     .slide3 h2 {
@@ -138,6 +157,12 @@
         font-weight: bold;
         -webkit-text-stroke-width: 1px; /* largura da borda */
         -webkit-text-stroke-color: #000;
+    }
+    .slide3 h3 {
+        position: relative;
+        top: -630px;
+        font-size: 30px;
+        left: 10px;
     }
     .slide3 a {
         text-decoration: none;
@@ -151,6 +176,7 @@
         left: 20px;
         font-size: 30px;
     }
+    .slide4 h3,
     .slide4 a,
     .slide4 ul li,
     .slide4 h2 {
@@ -159,6 +185,12 @@
         font-weight: bold;
         -webkit-text-stroke-width: 1px; /* largura da borda */
         -webkit-text-stroke-color: #000;
+    }
+    .slide4 h3 {
+        position: relative;
+        top: -630px;
+        font-size: 30px;
+        left: 10px;
     }
     .slide4 a {
         text-decoration: none;
@@ -172,6 +204,7 @@
         left: 20px;
         font-size: 30px;
     }
+    .slide5 h3,
     .slide5 a,
     .slide5 ul li,
     .slide5 h2 {
@@ -180,6 +213,12 @@
         font-weight: bold;
         -webkit-text-stroke-width: 1px; /* largura da borda */
         -webkit-text-stroke-color: #000;
+    }
+    .slide5 h3 {
+        position: relative;
+        top: -630px;
+        font-size: 30px;
+        left: 10px;
     }
     .slide5 a {
         text-decoration: none;

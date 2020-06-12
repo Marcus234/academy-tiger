@@ -62,8 +62,8 @@
 @media (min-width: 576px) {
     #footer-history {
         position: relative;
-        height: 690px;
-        top: 95px;
+        height: 750px;
+        top: -100px;
     }
     #footer-history #logo-footer {
         background: none;
