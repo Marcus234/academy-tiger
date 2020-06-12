@@ -22,7 +22,6 @@
     color: #fff;
     text-align: center;
     font-size: 30px;
-    text-shadow: 4px 4px 8px #840808;
 }
 @media (min-width: 576px) {
 
@@ -35,11 +34,11 @@
         height: auto;
     }
     #error .text-error h1 {
-        top: -450px;
+        top: -650px;
         font-size: 60px;
     }
     #error .text-error p {
-        top: -400px;
+        top: -600px;
         font-size: 60px;
     }
 }
