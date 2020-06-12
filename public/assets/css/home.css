@@ -30,7 +30,7 @@
     background-color: rgb(0, 14, 49);
     width: 72%;
     position: relative;
-    top: -40px;
+    top: -20px;
 }
 
 #home .middle .text p {
@@ -215,12 +215,15 @@
         flex-direction: row;
         color: rgb(0, 14, 49);
     }
+    #home .middle .text h2 {
+        font-size: 30px;
+    }
     
     #home .middle .text hr {
         background-color: rgb(0, 14, 49);
-        width: 40%;
+        width: 20%;
         position: relative;
-        top: -10px;
+        top: -20px;
     }
     
     #home .middle .text p {
