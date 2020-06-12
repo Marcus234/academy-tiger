@@ -63,7 +63,7 @@
     #footer-history {
         position: relative;
         height: 750px;
-        top: -100px;
+        top: -95px;
     }
     #footer-history #logo-footer {
         background: none;
@@ -141,7 +141,7 @@
     #footer-history {
         position: relative;
         height: 390px;
-        top: 85px;
+        top: -100px;
     }
     #footer-history #logo-footer {
         background: none;
