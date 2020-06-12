@@ -36,14 +36,14 @@
     cursor: pointer;
 }
 #header .menu ul {
-    margin: 190px 0 0 0;
+    margin: 180px 0 0 0;
     padding: 0;
     width: 100%;
     flex-direction: column;
 }
 
 #header .menu ul li {
-    padding: 15px 0;
+    padding: 10px 0;
     width: 100%;
     list-style: none;
     justify-content: center;

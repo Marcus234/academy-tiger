@@ -122,6 +122,9 @@
     position: relative;
     top: 20px;
 }
+#contact form button a {
+    color: #fff;
+}
 
 #contact form button:hover {
     background-color: rgb(0, 14, 49);
